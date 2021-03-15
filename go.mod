@@ -1,4 +1,4 @@
-module github.com/projectriff/streaming-http-adapter-buildpack
+module github.com/jsncmgs1/streaming-http-adapter-buildpack
 
 go 1.15
 
