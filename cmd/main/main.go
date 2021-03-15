@@ -22,7 +22,7 @@ import (
 	"github.com/paketo-buildpacks/libpak"
 	"github.com/paketo-buildpacks/libpak/bard"
 
-	"github.com/projectriff/streaming-http-adapter-buildpack/streaming"
+	"github.com/heroku/riff-streaming-http-adapter-buildpack/streaming"
 )
 
 func main() {

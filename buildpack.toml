@@ -15,10 +15,10 @@
 api = "0.5"
 
 [buildpack]
-id       = "projectriff/streaming-http-adapter"
+id       = "heroku/streaming-http-adapter-buildpack"
 name     = "riff Streaming HTTP Adapter Buildpack"
-version  = "{{.version}}"
-homepage = "https://github.com/projectriff/streaming-http-adapter-buildpack"
+version  = "1.4.0"
+homepage = "https://github.com/heroku/riff-streaming-http-adapter-buildpack" # Uncomment this when heroku fork is public
 
 [[stacks]]
 id = "heroku-18"
@@ -36,13 +36,12 @@ id = "org.cloudfoundry.stacks.cflinuxfs3"
 id      = "streaming-http-adapter"
 name    = "riff Streaming HTTP Adapter"
 version = "0.5.4"
-uri     = "https://storage.googleapis.com/projectriff/streaming-http-adapter/streaming-http-adapter-linux-amd64-latest.tgz"
-sha256  = "d408dcee6beaf5edb76ce8cae369e7cd2b6f374248961c9cabcddf37ff935a28"
+uri     = "https://heroku-build-artifacts.s3.us-east-2.amazonaws.com/streaming-http-adapter-buildpack/streaming-http-adapter-linux-amd64-latest.tgz"
 stacks  = [ "heroku-18", "heroku-20", "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
 
   [[metadata.dependencies.licenses]]
   type = "Apache-2.0"
-  uri  = "https://github.com/projectriff/streaming-http-adapter/blob/main/LICENSE"
+  uri  = "https://github.com/heroku/riff-streaming-http-adapter-buildpack/blob/main/LICENSE"
 
 [metadata]
 pre-package   = "scripts/build.sh"

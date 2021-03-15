@@ -1,3 +1,6 @@
+#
+This is a fork of the now inactive https://github.com/projectriff/streaming-http-adapter-buildpack
+
 # `gcr.io/projectriff/streaming-http-adapter`
 The riff Streaming HTTP Adapter Buildpack is a Cloud Native Buildpack that provides the riff Streaming HTTP Adapter.
 
