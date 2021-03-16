@@ -18,8 +18,7 @@ api = "0.5"
 id       = "heroku/streaming-http-adapter-buildpack"
 name     = "riff Streaming HTTP Adapter Buildpack"
 version  = "{{.version}}"
-homepage = "https://github.com/jsncmgs1/streaming-http-adapter-buildpack" # Delete this when heroku fork is public
-# homepage = "https://github.com/heroku/riff-streaming-http-adapter-buildpack" # Uncomment this when heroku fork is public
+homepage = "https://github.com/heroku/riff-streaming-http-adapter-buildpack" # Uncomment this when heroku fork is public
 
 [[stacks]]
 id = "heroku-18"
@@ -43,8 +42,7 @@ stacks  = [ "heroku-18", "heroku-20", "io.buildpacks.stacks.bionic", "org.cloudf
 
   [[metadata.dependencies.licenses]]
   type = "Apache-2.0"
-  uri  = "https://github.com/jsncmgs1/streaming-http-adapter/blob/main/LICENSE" # Delete this when heroku fork is public
-  # uri  = "https://github.com/heroku/riff-streaming-http-adapter-buildpack/blob/main/LICENSE" #Uncomment this when heroku fork is public
+  uri  = "https://github.com/heroku/riff-streaming-http-adapter-buildpack/blob/main/LICENSE"
 
 [metadata]
 pre-package   = "scripts/build.sh"
