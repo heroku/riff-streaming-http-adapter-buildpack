@@ -15,7 +15,7 @@
 api = "0.5"
 
 [buildpack]
-id       = "heroku/riff-streaming-http-adapter"
+id       = "heroku/streaming-http-adapter-buildpack"
 name     = "riff Streaming HTTP Adapter Buildpack"
 version  = "{{.version}}"
 homepage = "https://github.com/jsncmgs1/streaming-http-adapter-buildpack" # Delete this when heroku fork is public
@@ -34,7 +34,7 @@ id = "io.buildpacks.stacks.bionic"
 id = "org.cloudfoundry.stacks.cflinuxfs3"
 
 [[metadata.dependencies]]
-id      = "heroku-riff-streaming-http-adapter"
+id      = "heroku/streaming-http-adapter-buildpack"
 name    = "Heroku riff Streaming HTTP Adapter"
 version = "0.5.4"
 uri     = "https://heroku-build-artifacts.s3.us-east-2.amazonaws.com/streaming-http-adapter-buildpack/streaming-http-adapter-linux-amd64-latest.tgz"
