@@ -13,9 +13,7 @@ require (
 	github.com/paketo-buildpacks/libpak v1.51.0
 	github.com/sclevine/spec v1.4.0
 	github.com/stretchr/objx v0.3.0 // indirect
-	golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4 // indirect
-	golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa // indirect
-	golang.org/x/text v0.3.5 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
